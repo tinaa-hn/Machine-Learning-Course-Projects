@@ -13,23 +13,31 @@ Answer the following questions by modifying the base code in cs480_winter23_asst
 
 
 Part 1 (3 points) Architecture: Compare the accuracy of the convolutional neural network in the file cs480_winter23_asst3_cnn_cifar10.ipynb on the cifar10 dataset to the accuracy of simple dense neural networks with 0, 1, 2 and 3 hidden layers of 512 rectified linear units each. Run the code in the file cs480_winter23_asst3_cnn_cifar10.ipynb without changing the parameters to train a convolutional neural network. Then, modify the code in cs480_winter23_asst3_cnn_cifar10.ipynb to obtain simple dense neural networks with 0, 1, 2 and 3 hidden layers of 512 rectified linear units. Produce two graphs that contain 5 curves (one for the convolutional neural net and one for each dense neural net of 0-3 hidden layers). The y-axis is the accuracy and the x-axis is the number of epochs (# of passes through the training set). Produce one graph where all the curves correspond to the training accuracy and a second graph where all the curves correspond to the test accuracy. Train the neural networks for 10 epochs. Save the following results in your Jupyter notebook:
+
 The two graphs for training and testing accuracy.
+
 Add some text to the Jupyter notebook to explain the results (i.e., why some models perform better or worse than other models).
 
 
 Part 2 (2 point) Activation functions: Compare the accuracy achieved by rectified linear units and sigmoid units in the convolutional neural network in cs480_winter23_asst3_cnn_cifar10.ipynb. Modify the code in cs480_winter23_asst3_cnn_cifar10.ipynb to use sigmoid units. Produce two graphs (one for training accuracy and one for test accuracy) that each contain 2 curves (one for rectified linear units and another one for sigmoid units). The y-axis is the accuracy and the x-axis is the number of epochs. Train the neural networks for 10 epochs. Save the following results in your Jupyter notebook:
+
 The two graphs for training and test accuracy.
+
 Add some text to the Jupyter notebook to explain the results (i.e., why one model performs better or worse than the other model).
 
 
 Part 3 (2 points) Dropout: Compare the accuracy achieved with and without dropout in the convolutional neural network in cs480_winter23_asst3_cnn_cifar10.ipynb. Modify the code in cs480_winter23_asst3_cnn_cifar10.ipynb by inserting a dropout probability of 0.25 after each max pooling layer and a dropout probability of 0.5 after the hidden fully connected layer. Produce two graphs (one for training accuracy and the other one for testing accuracy) that each contain 2 curves (with and without dropout). The y-axis is the accuracy and the x-axis is the number of epochs. Produce curves for 20 epochs.
+
 The two graphs for training and testing accuracy.
+
 Add some text to the Jupyter notebook to explain the results (i.e., why did one model perform better than the other one).
 
 
 
 Part 4 (2 point) Optimizers: Compare the accuracy achieved when training the convolutional neural network in cs480_winter23_asst3_cnn_cifar10.ipynb with four different optimizers: SGD (learning rate = 0.001), RMSprop (learning rate = 0.0001), Adagrad (default parameters) and Adam (default parameters). Modify the code in cs480_winter23_asst3_cnn_cifar10.ipynb to use the SGD, Adagrad and RMSprop optimizers. Produce two graphs (one for training accuracy and the other one for testing accuracy) that each contain 4 curves (for SGD, RMSprop, Adagrad and Adam). The y-axis is the accuracy and the x-axis is the number of epochs. Produce curves up to 10 epochs.
+
 The two graphs for training and testing accuracy.
+
 Add some text to the Jupyter notebook to explain the results (i.e., why did some optimizers perform better or worse than other optimizers).
 
 
